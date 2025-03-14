@@ -1,4 +1,3 @@
-'''
 # JSON 공부
 import json
 
@@ -12,7 +11,7 @@ with open("myinfo.json", "r", encoding="utf-8") as f:
 print("JSON 결과:")
 print(type(data))  # <class 'dict'>
 print(data)        # {'name': '홍길동', 'age': 22}
-'''
+
 
 # Pickle 공부
 import pickle
